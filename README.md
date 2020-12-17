@@ -9,3 +9,10 @@ curl -L https://raw.githubusercontent.com/kavin25/dotfiles/master/setup.sh | bas
 ## GNUPG
 
 https://robsears.com/sharing-pgp-identities-across-devices/
+
+## If Git Version not latest
+
+```sh
+brew install git
+brew link --overwrite git
+```
