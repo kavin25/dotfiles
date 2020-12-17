@@ -1,0 +1,19 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[user]
+	name = Kavin Desi Valli
+	email = kavinvalli@gmail.com
+[core]
+	editor = nvim
+	autocrlf = input
+[pull]
+	rebase = false
+[http]
+	sslVerify = false
+[color]
+	ui = true
+[github]
+	user = kavin25

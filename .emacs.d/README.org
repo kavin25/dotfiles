@@ -1,0 +1,31 @@
+* Kavin's Emacs Configuration
+- This repo contains my emacs configuration which I have been working on with references from
+[[https://www.youtube.com/watch?v=74zOY-vgkyw&list=PLEoMzSkcN8oPH1au7H6B7bBJ4ZO7BXjSZ][System Crafters Emacs From Scratch]] playlist
+- [[https://github.com/daviwil/emacs-from-scratch/blob/master/init.el][Emacs from Scratch Repository]]
+
+** Installing Emacs in MacOS
+#+begin_src sh
+brew install emacs
+#+end_src
+** Using this Configuration
+*** OSX
+#+begin_src sh
+mv ~/.emacs.d ~/.emacs.bck.d && git clone https://github.com/kavin25/emacs_config.git ~/.emacs.d
+#+end_src
+** Opening Emacs
+#+begin_src sh
+emacs
+#+end_src
+** Editing this Configuration
+All Edits should be made in the Emacs.org file. When saved, the init.el file will automatically be updated. If wanting to see changes everytime, make sure to run
+#+begin_src emacs-lisp
+M-x auto-revert-mode
+#+end_src
+* Issues
+Please create any issues, if any found, in the Issues section
+* Contributing
+Please feel free to contribute to this repository using the following steps:
+- Fork this repository
+- Make a new branch
+- Commit changes and push the branch to your forked repository
+- Make a Pull request and make sure to give detailed description and Screenshots on the feature

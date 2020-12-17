@@ -1,0 +1,128 @@
+#+title: Custom Theme
+#+PROPERTY: header-args:emacs-lisp :tangle ./custom-theme.el :mkdirp yes
+
+* Initialise Autothemer
+#+begin_src emacs-lisp
+
+  ;; Require the Autothemer package
+  (require 'autothemer)
+
+#+end_src
+
+* Define Theme
+#+begin_src emacs-lisp
+  ;; Name and description are completely your choice
+  (autothemer-deftheme
+   custom "A Custom Theme made by Kavin Desi Valli"
+
+#+end_src
+
+* Define Colours
+#+begin_src emacs-lisp
+
+   ((((class color) (min-colors #xFFFFFF)))
+    (custom-dark      "#080b0f")
+    ;; (custom-dark-100 "#1c1c1c")
+    (custom-dark-100 "#101820")
+    (custom-dark-200 "#8a8a8a")
+    (custom-light      "#ffffff")
+    (custom-black      "#000")
+    (custom-light-blue "#64bced")
+    (custom-light-blue-100 "#00d5ff")
+    (custom-cyan       "#4DD0E1")
+    (custom-dk-gray    "#757575")
+    (custom-yellow  "#fee715")
+    (custom-pink    "#ff6be9")
+    (custom-orange  "#D7C49E")
+    (custom-orange-100 "#ffaa00")
+    (custom-pale-100 "#F2AA4C")
+    (custom-red     "HotPink2")
+    (custom-green   "LightGreen")
+    )
+
+#+end_src
+
+* Colour Integration
+- Tip: To know the face, get your cursor on the thing, and then run =M-x describe-face=
+** Default Colour
+#+begin_src emacs-lisp
+
+  ((default (:foreground custom-light :background custom-dark))
+
+#+end_src
+** Cursor
+#+begin_src emacs-lisp
+
+  (cursor (:background custom-light))
+
+#+end_src
+** Fonts
+*** Keyword
+#+begin_src emacs-lisp
+
+  (font-lock-keyword-face (:foreground custom-light-blue))
+
+#+end_src
+
+*** Comment
+#+begin_src emacs-lisp
+
+  ;; This is what a comment looks like
+  (font-lock-comment-face (:foreground custom-dark-200))
+
+#+end_src
+*** String
+#+begin_src emacs-lisp
+
+  (font-lock-string-face (:foreground custom-yellow))
+
+#+end_src
+** Org Mode
+*** Metadata
+**** Keyword
+#+begin_src emacs-lisp
+
+(org-document-info-keyword (:foreground custom-dk-gray))
+
+#+end_src
+**** Line
+#+begin_src emacs-lisp
+
+(org-meta-line (:foreground custom-cyan))
+
+#+end_src
+*** Headings
+**** Level  1
+#+begin_src emacs-lisp
+
+  (org-level-1 (:foreground custom-pink))
+
+#+end_src
+**** Level 2
+#+begin_src emacs-lisp
+
+  (org-level-2 (:foreground custom-orange))
+
+#+end_src
+*** Single line code
+#+begin_src emacs-lisp
+
+  (org-verbatim (:foreground custom-green :background custom-black))
+
+#+end_src
+*** Org Block
+#+begin_src emacs-lisp
+
+  (org-block-begin-line (:background custom-dark-100 :foreground custom-pale-100))
+  (org-block (:background custom-dark-100))
+
+#+end_src
+* End of Colour Integration
+#+begin_src emacs-lisp
+  )
+#+end_src
+
+* End of Theme
+#+begin_src emacs-lisp
+  )
+#+end_src
