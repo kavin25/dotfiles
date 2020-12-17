@@ -7,5 +7,5 @@ if [ "$(uname)" == "Darwin" ]; then
 		echo "Git version $(git --version)"
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
 		echo "Linux here"
-		echo "Installing APT"
+		echo "Install APT... Too many Linux distributions. Idk which command to use :sweat_smile:"
 fi
