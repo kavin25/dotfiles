@@ -22,7 +22,7 @@ config.bind('K', 'tab-next')
 
 # Theme Customization
 c.colors.webpage.darkmode.enabled = True
-c.colors.webpage.bg = 'black'
+c.colors.webpage.bg = 'white'
 
 # Search
 c.url.default_page ="https://google.com"

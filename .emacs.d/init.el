@@ -1197,16 +1197,3 @@
 (use-package cricbuzz)
 
 (+ 50 100)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-	 '(zlc yasnippet yaml-mode which-key web-mode vterm visual-fill-column visual-fill use-package typescript-mode sx spotify speed-type spacemacs-theme smex skewer-mode scss-mode rustic rainbow-mode rainbow-delimiters racer python-mode pug-mode prettier-js pdf-tools ox-reveal org-wild-notifier org-tree-slide org-special-block-extras org-plus-contrib org-make-toc org-gcal org-bullets org-alert ob-dart monokai-theme lua-mode lsp-ui lsp-python-ms lsp-ivy lsp-dart lorem-ipsum jade-mode ivy-youtube ivy-rich ivy-pass impatient-mode hide-mode-line helpful google-translate git-gutter-fringe general forge flycheck fish-completion exwm exec-path-from-shell evil-smartparens evil-nerd-commenter evil-magit evil-collection eterm-256color eshell-toggle eshell-syntax-highlighting eshell-git-prompt esh-autosuggest emojify emmet-mode elcord doom-themes doom-modeline dired-single dired-sidebar dired-rainbow dired-open dired-hide-dotfiles dashboard darkroom cricbuzz counsel-spotify counsel-projectile counsel-osx-app company-tabnine company-racer company-box comment-tags command-log-mode cargo calfw-org calfw bufler autothemer autopair all-the-icons-dired afternoon-theme)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(dashboard-heading ((t (:foreground "#fff" :weight bold)))))
