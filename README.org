@@ -29,6 +29,7 @@ https://robsears.com/sharing-pgp-identities-across-devices/
   sudo apt-get install git
 
 #+end_src
+APT GET
 
 * Configure Ubuntu for Web development
 https://www.youtube.com/watch?v=nQVvtC_V1ZQ
