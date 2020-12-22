@@ -1,5 +1,18 @@
 #+title: Kavin Valli's dotfiles
 
+* Table of Contents
+:PROPERTIES:
+:TOC:      :include all :ignore this
+:END:
+:CONTENTS:
+- [[#setup][Setup]]
+- [[#gnupg][GNUPG]]
+- [[#if-git-version-not-latest][If Git Version not latest]]
+  - [[#osx][OSX]]
+  - [[#ubuntuany-linux-ig][Ubuntu/Any Linux, ig]]
+- [[#configure-ubuntu-for-web-development][Configure Ubuntu for Web development]]
+- [[#oh-my-zsh-for-ubuntu][Oh My Zsh for Ubuntu]]
+:END:
 * Setup
 
 #+begin_src emacs-lisp
