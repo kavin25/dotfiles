@@ -19,3 +19,6 @@ brew link --overwrite git
 
 ## Configure Ubuntu for Web development
 https://www.youtube.com/watch?v=nQVvtC_V1ZQ
+
+## Oh My Zsh for Ubuntu
+https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/
