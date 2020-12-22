@@ -1,0 +1,23 @@
+{
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.colorTheme": "Monokai",
+  "window.zoomLevel": 1,
+  "tabnine.experimentalAutoImports": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.useWebExt": true,
+  "liveServer.settings.proxy": {
+    "enable": true,
+    "baseUri": "/",
+    "proxyUri": "http://127.0.0.1:8080"
+  },
+  "emmet.includeLanguages": {
+    "php": "html"
+  },
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.syntaxProfiles": {
+    "php": "html"
+  },
+  "editor.multiCursorModifier": "ctrlCmd"
+}
+
