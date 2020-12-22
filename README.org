@@ -1,0 +1,35 @@
+#+title: Kavin Valli's dotfiles
+
+* Setup
+
+#+begin_src emacs-lisp
+
+  curl -L https://raw.githubusercontent.com/kavin25/dotfiles/master/setup.sh | bash
+
+#+end_src
+
+* GNUPG
+
+https://robsears.com/sharing-pgp-identities-across-devices/
+
+* If Git Version not latest
+** OSX
+#+begin_src sh
+
+  brew install git
+  brew link --overwrite git
+
+#+end_src
+
+** Ubuntu/Any Linux, ig
+#+begin_src sh
+
+  sudo apt-get install git
+
+#+end_src
+
+* Configure Ubuntu for Web development
+https://www.youtube.com/watch?v=nQVvtC_V1ZQ
+
+* Oh My Zsh for Ubuntu
+https://www.tecmint.com/install-oh-my-zsh-in-ubuntu/
