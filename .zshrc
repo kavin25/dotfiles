@@ -154,6 +154,7 @@ alias trib="cd Documents/projects/tricycle && sact env"
 alias tricyclewebbuild='foo(){git add . && git commit -m $1 && git push origin master && npm run build && rm -rf ../tricycle_web_build/* && y && mv build/* ../tricycle_web_build && cd ../tricycle_web_build && git add . && git commit -m \"build\" && git push origin master cd ../tricycleweb}'
 alias emacs='/Applications/Emacs.app/Contents/MacOS/Emacs'
 alias update="brew update && brew upgrade && brew cleanup && brew doctor"
+alias dot="cd ~/dotfiles"
 export GPG_TTY=$(tty)
 export PATH="/usr/local/opt/util-linux/bin:$PATH"
 export PATH="/usr/local/opt/util-linux/sbin:$PATH"
