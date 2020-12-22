@@ -16,3 +16,6 @@ https://robsears.com/sharing-pgp-identities-across-devices/
 brew install git
 brew link --overwrite git
 ```
+
+## Configure Ubuntu for Web development
+https://www.youtube.com/watch?v=nQVvtC_V1ZQ
