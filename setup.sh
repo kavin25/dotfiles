@@ -1,4 +1,14 @@
-echo "Backing up old files...\n"
+isInstalled() {
+    COMMAND=$1
+    if ! [ -x "$(command -v $COMMAND)" ]
+    then
+	echo "false"
+	return 1;
+    else
+	echo "true"
+	return 0;
+    fi
+}
 
 move() {
     FILENAME=$1
@@ -26,6 +36,14 @@ symlinkconfig() {
     
     ln -s ~/dotfiles/$FILENAME ~/.config/$FILENAME
 }
+
+if ! isInstalled git; then
+    echo "Installing Git...\n"
+    sudo apt-get -y install git
+fi
+
+echo "Backing up old files...\n"
+
 
 backup dotfiles
 backup .zshrc
